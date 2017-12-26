@@ -1,0 +1,12 @@
+package com.bycle.fdv;
+ 
+public enum ValidationExceptionCode
+{
+	NO_EXISTE_TIPO,
+	INVALID_HOUR,
+	INVALID_HOUR_WEEK,
+	INVALID_HOUR_DAY,
+	INVALID_CANT_HRS_NEGATIVA_CERO,
+	NO_CALCULTED_VALUE,
+    INVALID_FORMAT_IMPUT
+}
